@@ -2,11 +2,8 @@
 import sys
 import subprocess
 
-#subscraper and subdomainizer not writing to file
 subprocess.run(["sudo python3 /home/najum98/Documents/MyTools/OneForAll/oneforall.py --takeover --target "+str(sys.argv[1])+" --path "+sys.argv[1]+"-oneforall.txt run"],shell=True,text=True)
-#subprocess.run(["sudo subscraper "+sys.argv[1] +" -o "+sys.argv[1]+"-subscraper.txt"],shell=True)
 subprocess.run(["subfinder -d "+sys.argv[1] +" -o "+sys.argv[1]+"-subfinder.txt"],shell=True)
-#subprocess.run(["python /home/najum98/Documents/MyTools/SubDomainizer/SubDomainizer.py -u "+sys.argv[1] +" -o "+sys.argv[1]+"-subdomainizer.txt"],shell=True)
 subprocess.run(["amass enum -d "+sys.argv[1]+" -o "+sys.argv[1]+"-amass.txt"],shell=True)
 subprocess.run(["amass track -d "+sys.argv[1]],shell=True)
 
