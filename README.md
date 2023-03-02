@@ -10,6 +10,6 @@ This is a little tool made in Python which I wrote to automate subdomain enumera
   $ pip3 install -r requirements.txt
 
 # Run
-sudo python3 DomEnum.py www.test.com
+$ sudo python3 DomEnum.py www.test.com
 
 ### Note: You should have OneForAll,Subfinder,Amass,Httprobe and Aquatone in your system
