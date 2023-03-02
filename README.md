@@ -9,7 +9,7 @@ This is a little tool made in Python which I wrote to automate subdomain enumera
   
   $ pip3 -r install requiment.txt
 
-# How to use
+# Run
 sudo python3 DomEnum.py www.test.com
 
 ### Note: You should have OneForAll,Subfinder,Amass,Httprobe and Aquatone in your system
