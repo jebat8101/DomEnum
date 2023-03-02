@@ -7,7 +7,7 @@ This is a little tool made in Python which I wrote to automate subdomain enumera
   
   $ cd DomEnum
   
-  $ pip3 -r install requiment.txt
+  $ pip3 install -r requirements.txt
 
 # Run
 sudo python3 DomEnum.py www.test.com
